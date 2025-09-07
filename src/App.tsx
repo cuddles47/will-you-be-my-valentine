@@ -13,21 +13,16 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
+      "Chị chắc chứ ?",
+      "Nếu em nài nỉ thì saoo 🥺?",
+      "Nài nỉ với chút đồ ngọt thì xaoo 🥺?",
+      "Ok, chị đang bỏ lỡ 1 buổi đi chơi tuyệt vời đó ;-; ",
+      "Oh pleaseee",
       "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
       ":((((",
       "PRETTY PLEASE",
-      "Estoy muerto",
       "No :(",
+      "Last chance to say yes",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -46,7 +41,7 @@ export default function Page() {
             className="h-[200px]"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
+          <h1 className="my-4 text-4xl">May I ask you out for some sweets?</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
