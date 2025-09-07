@@ -5,9 +5,10 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/may-i-ask-you-out",
   plugins: [react()],
-    server: {
+  server: {
     port: 5713,
-    host: "172.16.56.11",
+    host: "172.16.10.77", // hoặc host phù hợp của bạn
+    allowedHosts: ["pre-thuthapdiachi.vnpost.vn"],
   },
 });
 
