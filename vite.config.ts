@@ -5,10 +5,12 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/",
   plugins: [react()],
+  build: {
+    assetsDir: 'miayo'
+  },
   server: {
     port: 5713,
     host: "172.16.56.11", // hoặc host phù hợp của bạn
     allowedHosts: ["pre-thuthapdiachi.vnpost.vn"],
   },
 });
-
