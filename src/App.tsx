@@ -22,7 +22,7 @@ export default function Page() {
       ":((((",
       "PRETTY PLEASE",
       "No :(",
-      "Last chance to say yes",
+      "Cơ hội cuối để đồng ýyy,
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
