@@ -41,7 +41,10 @@ export default function Page() {
             className="h-[200px]"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="my-4 text-4xl">Nếu chị thấy bánh ngon thì hôm nào mình đi chơi, em dẫn chị thử những hàng khác ngon không kém nhéee 💖 ?</h1>
+          <h1 className="my-4 text-4xl text-center">
+            Nếu chị thấy bánh ngon thì hôm nào mình đi chơi,<br />
+            em dẫn chị thử những hàng khác ngon không kém nhéee 💖 ?
+          </h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
